@@ -1,0 +1,16 @@
+package comapnayDetails;
+
+import java.util.Scanner;
+
+public class MyClass
+{
+	public static void main(String[] args)
+	{
+		String name;
+		Scanner Obj new Scanner(System.in);
+		System.out.println("Enter your Name:");
+		name=Obj.next();
+		
+		System.out.println("Your Name Is  " +name);
+	}
+}
