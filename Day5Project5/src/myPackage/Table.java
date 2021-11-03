@@ -37,7 +37,19 @@ public class Table
 			obj.next();
 			obj.next();
 		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("can not divide with zero");
+			obj.next();
+			obj.next();
+			obj.next();
+		}
 		
+		catch (Exception ex) 
+		{
+			System.out.println("Some error occured");
+			System.out.println("Please write to : admin@mycompany.com");
+		}
 	}
 
 }
